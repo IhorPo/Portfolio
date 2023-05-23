@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<header>
+    <h1>Welcome to the Home Page!</h1>
+</header>
+    <p>Click <a th:href="@{/university/students}">here</a> to see the list of students.</p>
+    <p>Click <a th:href="@{/university/teachers}">here</a> to see the list of teachers.</p>
+    <p>Click <a th:href="@{/university}">here</a> to see the university main page.</p>
+</body>
+</html>
